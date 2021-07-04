@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000086993567",
+    "firebase_url": "https://messmanager-3ee87.firebaseio.com",
+    "project_id": "messmanager-3ee87",
+    "storage_bucket": "messmanager-3ee87.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000086993567:android:04eedede46740ec8ae00aa",
+        "android_client_info": {
+          "package_name": "com.nirwal.messmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000086993567-ab75ecnladgm91ioiq1deagvshpje1l7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzCJx-pPTcIqpd5ki7yAWtJVRXNmlbDvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000086993567-ab75ecnladgm91ioiq1deagvshpje1l7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#79909b</color>
+    <color name="colorPrimaryDark">#536c77</color>
+    <color name="colorAccent">#ee5252</color>
+
+    <color name="colorSuccess">#4CAF50</color>
+    <color name="colorWarning">#FFC107</color>
+    <color name="colorError">#F44336</color>
+
+
+    <color name="iconColorPrimary">@color/colorAccent</color>
+    <color name="iconColorAccent">#C8C7C7</color>
+
+    <color name="btnColorPrimary">@color/colorPrimary</color>
+
+    <color name="txtColorPrimary">#E56E6B6B</color>
+    <color name="txtColorSecondary">#E57E7B7B</color>
+    <color name="txtColorLink">@color/colorAccent</color>
+
+</resources>

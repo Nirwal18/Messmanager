@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView android:id="@+id/text_order_list_requestor_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Todays order"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"/>
+
+        <CheckBox
+            android:id="@+id/checkBox_order_list_BreakFastReq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:text="Breakfast required" />
+        <CheckBox
+            android:id="@+id/checkBox_order_list_rice_on_lunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:text="Rice required on lunch" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox_order_list_rice_on_dinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:text="Rice required on dinner" />
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+            android:padding="14dp"
+            android:columnCount="2"
+            android:rowCount="2">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_row="0"
+                android:textSize="14sp"
+                android:layout_marginBottom="14dp"
+                android:text="Roti on lunch :" />
+            <TextView android:id="@+id/text_order_list_lunch_roti_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_row="0"
+                android:textSize="14sp"
+                android:layout_marginBottom="14dp"
+                android:text="0" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_marginBottom="14dp"
+                android:textSize="14sp"
+                android:text="Roti on dinner :" />
+            <TextView android:id="@+id/text_order_list_dinner_roti_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:layout_column="1"
+                android:layout_row="1"
+                android:layout_marginBottom="14dp"
+                android:textSize="14sp"
+                android:text="0" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

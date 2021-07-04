@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btn_orderMealFrag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#fff"
+        android:drawableTop="@drawable/ic_meal_24dp"
+        android:text="Order a meal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_orderDetailsFrag"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_orderDetailsFrag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#fff"
+        android:drawableTop="@drawable/ic_report"
+        android:text="Order details"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_orderMealFrag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_orderMealFrag"
+        app:layout_constraintTop_toTopOf="@+id/btn_orderMealFrag" />
+
+    <Button
+        android:id="@+id/btn_notificationfrag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#fff"
+        android:drawableTop="@drawable/ic_notifications"
+        android:text="Notification"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_manageUsrFrag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_manageUsrFrag"
+        app:layout_constraintTop_toTopOf="@+id/btn_manageUsrFrag" />
+
+    <Button
+        android:id="@+id/btn_manageUsrFrag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#fff"
+        android:drawableTop="@drawable/ic_manage_user"
+        android:text="Manage User"
+        app:layout_constraintEnd_toStartOf="@+id/btn_notificationfrag"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_orderMealFrag" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:backgroundTint="#fff"
+        android:drawableTop="@drawable/ic_settings"
+        android:text="Settings"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_create_group_frag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_create_group_frag"
+        app:layout_constraintTop_toTopOf="@+id/btn_create_group_frag" />
+
+    <Button
+        android:id="@+id/btn_create_group_frag"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#fff"
+        android:drawableTop="@drawable/ic_group_add"
+        android:text="Create group"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_manageUsrFrag" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
